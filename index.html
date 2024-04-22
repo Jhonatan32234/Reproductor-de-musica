@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img id="image" style="height: 250px; width: 400px;">
+        <h2 id="titulo"></h2>
+        <progress id="progreso" max="1" value="0" class="progress"></progress><br><br>
+        <div class="controllers">
+            <audio id="audio"></audio>
+            <button id="btnAnterior">Anterior</button>
+            <button id="btnReproducir">Play</button>
+            <button id="btnSiguiente">Siguiente</button>
+        </div>
+    </div>
+
+<script type="module" src="./src/controllers/index.js"></script>
+    
+</body>
+</html>
